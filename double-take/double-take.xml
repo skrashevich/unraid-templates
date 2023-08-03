@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>double-take</Name>
+  <Date>2023/03/08</Date>
+  <TemplateURL>https://raw.githubusercontent.com/skrashevich/unraid-templates/main/double-take/double-take.xml</TemplateURL>  
+  <Repository>skrashevich/double-take</Repository>
+  <Registry>https://hub.docker.com/r/skrashevich/double-take/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support></Support>
+  <Project>https://hub.docker.com/r/skrashevich/double-take</Project>
+  <Overview>Unified UI and API for processing and training images for facial recognition</Overview>
+  <Category>HomeAutomation: Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <Icon>https://raw.githubusercontent.com/skrashevich/double-take/beta/frontend/public/apple-touch-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Unified UI and API for processing and training images for facial recognition</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+  <Volume>
+    <HostDir>/mnt/user/appdata/double-take</HostDir>
+    <ContainerDir>/.storage</ContainerDir>
+    <Mode>rw</Mode>
+  </Volume>
+</Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="WebUI HTTP Port" Target="3000" Default="3000" Mode="tcp" Description="Container Port: 3000" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="Data" Target="/.storage" Default="" Mode="rw" Description="Container Path: /.storage" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/double-take</Config>
+</Container>
