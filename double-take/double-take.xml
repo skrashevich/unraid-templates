@@ -8,8 +8,8 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support></Support>
-  <Project>https://hub.docker.com/r/skrashevich/double-take</Project>
+  <Support>https://forums.unraid.net/topic/143451-support-double-take-facial-recognition-solution-actual-maintained-fork/</Support>
+  <Project>https://github.com/skrashevich/double-take</Project>
   <Overview>Unified UI and API for processing and training images for facial recognition</Overview>
   <Category>HomeAutomation: Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
