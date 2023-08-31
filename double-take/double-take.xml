@@ -3,7 +3,7 @@
   <Name>double-take</Name>
   <Date>2023/03/08</Date>
   <TemplateURL>https://raw.githubusercontent.com/skrashevich/unraid-templates/main/double-take/double-take.xml</TemplateURL>  
-  <Repository>skrashevich/double-take:v1.13.11</Repository>
+  <Repository>skrashevich/double-take:v1.13.11.2</Repository>
   <Registry>https://hub.docker.com/r/skrashevich/double-take/</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
