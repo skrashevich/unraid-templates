@@ -3,10 +3,18 @@
   <Name>double-take</Name>
   <Date>2023/10/05</Date>
   <TemplateURL>https://raw.githubusercontent.com/skrashevich/unraid-templates/main/double-take/double-take.xml</TemplateURL>  
-  <Repository>skrashevich/double-take:v1.13.11.5</Repository>
+  <Repository>skrashevich/double-take:v1.13.11.7</Repository>
   <Registry>https://hub.docker.com/r/skrashevich/double-take/</Registry>
   <Screenshot>https://user-images.githubusercontent.com/1081811/126434926-cf2275f7-f3a8-43eb-adc2-903c0071f7d1.jpg</Screenshot>
   <Changes>
+  1.13.11.7:
+    1. Reintroduces support for the arm/v7 architecture
+    2. Removes unused code. Reduce docker container size
+    3. Performance optimizations have been implemented for better efficiency
+    4. Option to trace SQL queries has been added for better debugging and tracking.
+  1.13.11.6.1:
+  ` A lot of small bug fixes`
+  1.13.11.5:
 `[BUG] fix error "Cannot set headers after they are sent to the client"`
 `Migrate to NodeJS 18`
 `Logs button in top menu bar`
