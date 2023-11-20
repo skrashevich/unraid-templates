@@ -3,10 +3,15 @@
   <Name>double-take</Name>
   <Date>2023/10/05</Date>
   <TemplateURL>https://raw.githubusercontent.com/skrashevich/unraid-templates/main/double-take/double-take.xml</TemplateURL>  
-  <Repository>skrashevich/double-take:v1.13.11.7</Repository>
+  <Repository>skrashevich/double-take:v1.13.11.8</Repository>
   <Registry>https://hub.docker.com/r/skrashevich/double-take/</Registry>
   <Screenshot>https://user-images.githubusercontent.com/1081811/126434926-cf2275f7-f3a8-43eb-adc2-903c0071f7d1.jpg</Screenshot>
   <Changes>
+  1.13.11.8:
+    1. [BUG] Frigate sublabels
+    2. bump deps versions
+    3. ui-tests by playwright
+    4. multi-arch static binaries for linux
   1.13.11.7:
     1. Reintroduces support for the arm/v7 architecture
     2. Removes unused code. Reduce docker container size
